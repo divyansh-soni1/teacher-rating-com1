@@ -26,7 +26,7 @@ app.get('/:id', async(req, res) => {
          })
           s= avg/n;
          s= s.toFixed(2)
-         res.json(s)
+     res.json({"data":s,"data1":n})
 
   //   user.forEach((e)=>{
            
