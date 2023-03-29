@@ -142,7 +142,7 @@ app.get('/auth/callback/failure' , (req , res) => {
 app.get('/logout', function(req, res) {
   console.log("logged out!");
   req.logout();
-  res.redirect('http://localhost:3000')
+  res.redirect('https://lucky-cheesecake-7d3711.netlify.app')
 });
 
 app.get('/:id', async(req, res) => {
